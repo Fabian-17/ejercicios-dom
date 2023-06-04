@@ -5,8 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>Ejercicio 3</h1>
+    <div id="calculos">
+      <form>
+    <input type="number" required class="numero1" value="">
+    <select name="operator" id="operador">
+      <option value="1">Suma</option>
+      <option value="2">Resta</option>
+      <option value="3">Multiplicación</option>
+      <option value="4">División</option>
+    </select>
+    <input type="number" required class="numero2" value="">
+    <button type="submit" class="calcular">calcular</button>
+    <br></br>
+    <p>resultado:</p>
+    <input type="text" class="resultado" value="">
+  </form>
+  </div>
+  <script src="./main.js"></script>
   </body>
 </html>
